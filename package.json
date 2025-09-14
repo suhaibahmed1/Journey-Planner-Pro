@@ -1,0 +1,16 @@
+{
+  "name": "journey-planner-pro",
+  "version": "1.0.0",
+  "scripts": {
+    "dev:all": "concurrently \"npm run dev --prefix frontend\" \"npm run dev --prefix backend\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^16.6.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.17.0"
+  }
+}
