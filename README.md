@@ -158,6 +158,22 @@ npm run dev
   "start": "next start"
 }
 ```
+## 📂 Tour Data (Trips Collection)
+
+All tours (Pakistan & International) are stored in **MongoDB Atlas** inside the `trips` collection.
+
+The project already includes a file called `trips.txt` which contains the tour documents.
+
+### Adding Tours to MongoDB Atlas
+
+1. Open [MongoDB Atlas](https://cloud.mongodb.com/).
+2. Go to your **Cluster → Database → Collections**.
+3. Create a new collection named `trips` (if it doesn’t already exist).
+4. Open `trips.txt` from this project.
+5. Copy the JSON content from the file.
+6. In Atlas, click **Insert Document** → paste the JSON → Save.
+
+Now, your **Trips Page** will load the tours directly from MongoDB Atlas.
 
 ---
 
@@ -169,5 +185,6 @@ npm run dev
 - 🔜 Booking & Payments  
 
 ---
+
 
 
